@@ -6,14 +6,16 @@
     min-width: 88px !important;
     min-height: 42px !important;
 
-    margin-top: 4px !important; /* Logoyu biraz aşağı al */
+    margin-top: 0 !important;
 
     display: inline-flex !important;
     align-items: center !important;
   }
 
   [data-mj="logo"] > img {
-    max-width: 90px !important; /* 70 küçük, 120 büyük, 90 dengeli */
+    max-width: 90px !important;
+    position: relative !important;
+    top: -2px !important; /* Logoyu hafif yukarı al */
   }
 }
 
@@ -23,7 +25,6 @@
     width: 160px !important;
     height: 80px !important;
     min-width: 160px !important;
-
     margin-top: 0 !important;
 
     display: inline-flex !important;
