@@ -1,0 +1,36 @@
+/* 1. Mobile Settings */
+@media screen and (max-width: 1024px) {
+  [data-mj="logo"] {
+    width: 88px !important;
+    height: 42px !important;
+    min-width: 88px !important;
+    min-height: 42px !important;
+
+    margin-top: 4px !important; /* Logoyu biraz aşağı al */
+
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+
+  [data-mj="logo"] > img {
+    max-width: 90px !important; /* 70 küçük, 120 büyük, 90 dengeli */
+  }
+}
+
+/* 2. Desktop Settings (Large Screens) */
+@media screen and (min-width: 1025px) {
+  [data-mj="logo"] {
+    width: 160px !important;
+    height: 80px !important;
+    min-width: 160px !important;
+
+    margin-top: 0 !important;
+
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+
+  [data-mj="logo"] > img {
+    max-width: 160px !important;
+  }
+}
